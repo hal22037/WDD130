@@ -1,0 +1,15 @@
+.YOLO {
+    color: white
+}
+
+.BOSS {
+    color: black
+}
+.content {
+    max-width: 500px;
+   
+  }
+  body {
+    background-color: pink;
+    text-align: center;
+  }

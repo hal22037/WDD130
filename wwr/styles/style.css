@@ -1,0 +1,104 @@
+<body>
+    <div id="content"> 
+    #content {
+            max-width: 1600px; margin: 0 auto; text-align: center; 
+    }
+        <header>
+
+        <footer>
+    </div>
+#background {
+        height: 725px;
+    }
+body {
+    background-color: #fcfbfb; text-align: center;
+}
+header {
+    background-color:rgba(20,30,13, .7); text-align: center;
+}
+nav a:hover {
+    background-color: black; text-align: center;
+}
+.book, .join {
+background-color: chartreuse; text-align: center;
+}
+.book:hover, .join:hover {
+    background-color: darkblue; text-align: center;
+}
+#background {
+    background-color: red; text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+text-align: center;
+}
+nav a {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+.msg {
+    background-color: blueviolet;
+}
+footer {
+    background-color: darkgray;
+}
+nav a {
+background-color: cyan; text-decoration: none;
+}
+nav a:hover {
+background-color: cyan;
+}
+.home-title {
+background-color: rgba(20,30,13, .7);
+}
+h4 {
+background-color: blueviolet;
+}
+.book, .join {
+background-color: aqua; text-decoration: none;
+}
+.msg h2 {
+background-color: yellow;
+}
+.msg p {
+background-color: chartreuse;
+}
+footer a {
+background-color: cyan; text-decoration: none;
+}
+footer a:hover {
+background-color: darkorange;
+}
+.icon {
+    width: 80px;
+}
+#hero-image {
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
+  
+<section class="rapids-card">
+<img class="boat" src="images/rapids.jpg" alt="rafting boat">
+<img class="oars" src="images/oars.png" alt="oars icon">
+<h2>Rapids</h2>
+</section>
+<div id="background"></div>
+#background {
+    height: 725px; background-color: colo
+}
+<img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+<section class="msg">
+<h2>More Than Just The Thrill</h2>
+<p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+<a class='join' href="rivers.html">Join Us</a>
+</section>
+</body>
