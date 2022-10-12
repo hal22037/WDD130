@@ -1,6 +1,11 @@
 
 #content {
-        max-width: 1600px; margin: 0 auto; text-align: center; 
+        max-width: 1600px; margin: 0 auto; text-align: center; font-family: 'Rock Salt', 'Bradley Hand', 'sans-serif'
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em; margin-top: 10px;
+
 }
         
 #background {
@@ -8,6 +13,11 @@
     }
 body {
     background-color: #fcfbfb; text-align: center;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 header {
     background-color:rgba(20,30,13, .7); text-align: center;
@@ -16,7 +26,7 @@ nav a:hover {
     background-color: black; text-align: center;
 }
 .book, .join {
-background-color: chartreuse; text-align: center;
+background-color: chartreuse; text-align: center; font-size: 18px; margin-top: 50px;
 }
 .book:hover, .join:hover {
     background-color: darkblue; text-align: center;
@@ -37,13 +47,16 @@ main section {
     text-align: center;
 }
 .msg {
-    background-color: blueviolet;
+    background-color: blueviolet; line-height: 1.5em; padding: 35px;
 }
 footer {
     background-color: darkgray;
 }
 nav a {
 background-color: cyan; text-decoration: none;
+color: #fcfbfb;
+text-align: center;
+padding: 35px;
 }
 nav a:hover {
 background-color: cyan;
@@ -55,13 +68,13 @@ h4 {
 background-color: blueviolet;
 }
 .book, .join {
-background-color: aqua; text-decoration: none;
+background-color: aqua; text-decoration: none; padding: 15px 30px; border-radius: 5px 
 }
 .msg h2 {
 background-color: yellow;
 }
 .msg p {
-background-color: chartreuse;
+background-color: chartreuse; font-size: .8em; padding-bottom: 15px;
 }
 footer a {
 background-color: cyan; text-decoration: none;
@@ -70,7 +83,7 @@ footer a:hover {
 background-color: darkorange;
 }
 .icon {
-    width: 80px;
+    width: 80px; padding-top: 10px;
 }
 #hero-image {
     width: 100%;
@@ -81,7 +94,33 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
-  
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer {
+    padding: 25px 50px; margin-top: 200px
+}
+footer .social img {
+    padding-top: 15px;
+}  
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-image {
+    border: 10px; color: black;
+}
+main section img {
+    box-sizing: border-box;
+}
 <section class="rapids-card">
 <img class="boat" src="images/rapids.jpg" alt="rafting boat">
 <img class="oars" src="images/oars.png" alt="oars icon">
