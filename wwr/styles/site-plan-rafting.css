@@ -197,8 +197,9 @@ nav a:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .rivers-card {
-grid-column: 2/4;
-grid-row: 2/3;
+  .card-img, .mountains {
+    width: 100%;
+}
 }
 .camping-card {
   grid-column: 5/7;
