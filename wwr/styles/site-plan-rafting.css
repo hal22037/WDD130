@@ -4,7 +4,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Shadows+Into+Light&display=swap');
-
+   
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #274C77;
@@ -196,9 +196,6 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.card-img, .mountains {
-  width: 100%;
-}
 .rivers-card {
 grid-column: 2/4;
 grid-row: 2/3;
@@ -215,17 +212,17 @@ grid-row: 2/3;
   grid-column: 1/11;
   grid-row: 4/9;
 }
+.msg {
+  background-color: #6f7364;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+}
 .mountains {
   width: 100%;
   grid-column: 2/7;
   grid-row: 5/8;
-  box-shadow: 5px 5px 10px #6f7364;
-}
-.msg {
-  grid-column: 6/10;
-  grid-row: 6/7;
-  background-color: #6f7364;
-  padding: 35px;
   box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
@@ -237,6 +234,7 @@ footer {
   align-items: center;
 }
 .card-img {
+  width: 100%;
   border: 10px solid #d9c2a3;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
