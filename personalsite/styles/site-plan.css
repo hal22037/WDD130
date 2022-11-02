@@ -175,3 +175,31 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.imagehomepage1 {
+  width: 525px;
+  height: 300px;
+}
+.imagehomepage2 {
+  width: 525px;
+  height: 300px;
+}
+.imagepage2-1 {
+  width: 400px;
+  height: 400px;
+}
+.imagepage2-2 {
+  width: 400px;
+  height: 400px;
+}
+.mainimage {
+  width: 525px;
+  height: 600px;
+}
+.imagepage3-1 {
+  width: 500px;
+  height: 400px;
+}
+.imagepage3-2 {
+  width: 500px;
+  height: 400px;
+}
