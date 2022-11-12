@@ -129,6 +129,7 @@ footer p a:hover {
 }    
 h2 {
     margin: 0;
+    color: purple
 }
 #logo_link {
     padding-top: 5px;
@@ -189,6 +190,13 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+h3 {
+    color: black
+}
+#coolpic {
+    height: 1500px;
+    width: 1500px
+}
 <section class="rapids-card">
 <img class="boat" src="images/rapids.jpg" alt="rafting boat">
 <img class="oars" src="images/oars.png" alt="oars icon">
@@ -205,6 +213,7 @@ footer {
 <a class='join' href="rivers.html">Join Us</a>
 </section>
 </body>
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

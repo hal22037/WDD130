@@ -28,7 +28,6 @@ Fonts are separated by a & */
   --nav-hover-background-color:  #274C77;
 }
 
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -45,10 +44,10 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
 }
 h2 {
   text-align: center;
+  color: white;
 }
 hr {
   height: 3px;
@@ -196,10 +195,8 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.rivers-card {
-  .card-img, .mountains {
+.rivers-card .card-img .mountains {
     width: 100%;
-}
 }
 .camping-card {
   grid-column: 5/7;
@@ -243,6 +240,10 @@ footer {
 .card-img:hover {
   opacity: .6;
   transform: scale(1.1);
+}
+.canyonimage {
+  height: 800px;
+  width: 800px;
 }
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
